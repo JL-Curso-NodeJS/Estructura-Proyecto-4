@@ -46,6 +46,7 @@ module.exports = (sequelize, DataTypes) => {
 
   Usuario.associate = models => {
     // aca se relacionan las tablas de la base de datos  
+    Usuario.hasMany(models.archivo_usuario) // un usuario tiene muchos archivos
   }
 
   return Usuario
