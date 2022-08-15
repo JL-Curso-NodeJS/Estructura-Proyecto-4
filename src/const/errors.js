@@ -11,6 +11,10 @@ module.exports = {
     'UsuarioInexistente': {
         code: 1002,
         message: 'El usuario no existe'
+    },
+    'ArchivoInexistente': {
+        code: 1003,
+        message: 'El archivo no existe'
     }
 
 
