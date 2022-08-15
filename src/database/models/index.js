@@ -34,7 +34,7 @@ Object.keys(db).forEach(modelName => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-// sequelize.sync(); // actualiza la base de datos cuando hay cambios en las tablas
+sequelize.sync(); // actualiza la base de datos cuando hay cambios en las tablas
 // sequelize.sync({force: true}); // elimina la base de datos y la vuelve a crear
 // sequelize.sync({alter: true}); // actualiza la base de datos cuando hay cambios en las tablas
 
