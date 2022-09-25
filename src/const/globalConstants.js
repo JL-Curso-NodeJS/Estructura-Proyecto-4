@@ -8,5 +8,5 @@ module.exports = {
     DB_USERNAME: process.env.DB_USERNAME,
     DB_PASSWORD: process.env.DB_PASSWORD,
 
-    MAX_FILE_SIZE: 1024 * 1024 * 20, // 20MB de peso maximo para los archivos
+    MAX_FILE_SIZE: 1024 * 1024 * 20, // peso maximo para los archivos
 }
