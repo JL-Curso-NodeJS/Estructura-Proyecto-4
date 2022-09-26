@@ -7,7 +7,7 @@ Crear un archivo llamado .env con los siguientes datos:
 
     PORT = 8000
     ENVIRONMENT = development
-    DB_NAME= mi_bd
+    DB_NAME = mi_bd
     DB_USERNAME = postgres
     DB_PASSWORD = password
     
