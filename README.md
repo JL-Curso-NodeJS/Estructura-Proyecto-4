@@ -16,7 +16,6 @@ Crear un archivo llamado .env con los siguientes datos:
     
     npm install
     npm run db:create
-    npm run db:migrate
     npm run db:seed
     npm start
 
